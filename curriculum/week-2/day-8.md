@@ -1,6 +1,6 @@
 # Day 8: Build Sprint 3
 
-**Wednesday, June 24 | 8:00 AM - 5:00 PM ET | Virtual**
+**Wednesday, July 1 | 8:00 AM - 5:00 PM ET | Virtual**
 
 ---
 

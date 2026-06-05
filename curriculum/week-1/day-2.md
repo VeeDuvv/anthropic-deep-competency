@@ -1,6 +1,6 @@
 # Day 2: API Deep Dive + Prompt Engineering
 
-**Tuesday, June 16 | 8:00 AM - 5:00 PM ET | NYC (In-Person)**
+**Tuesday, June 23 | 8:00 AM - 5:00 PM ET | NYC (In-Person)**
 
 ---
 

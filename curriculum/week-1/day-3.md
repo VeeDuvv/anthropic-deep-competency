@@ -1,6 +1,6 @@
 # Day 3: Tool Use + Agents
 
-**Wednesday, June 17 | 8:00 AM - 5:00 PM ET | NYC (In-Person)**
+**Wednesday, June 24 | 8:00 AM - 5:00 PM ET | NYC (In-Person)**
 
 ---
 

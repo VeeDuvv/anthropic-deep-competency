@@ -1,6 +1,6 @@
 # Day 6: AI Product Process
 
-**Monday, June 22 | 11:00 AM - 4:00 PM ET | Virtual**
+**Monday, June 29 | 11:00 AM - 4:00 PM ET | Virtual**
 
 ---
 

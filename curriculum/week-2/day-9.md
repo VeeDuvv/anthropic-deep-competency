@@ -1,6 +1,6 @@
 # Day 9: Build Sprint 4 + Demo Prep
 
-**Thursday, June 25 | 8:00 AM - 5:00 PM ET | Virtual**
+**Thursday, July 2 | 8:00 AM - 5:00 PM ET | Virtual**
 
 ---
 

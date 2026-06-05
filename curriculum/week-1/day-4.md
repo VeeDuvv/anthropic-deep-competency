@@ -1,6 +1,6 @@
 # Day 4: MCP + Extended Thinking + Enterprise Integration
 
-**Thursday, June 18 | 8:00 AM - 5:00 PM ET | NYC (In-Person)**
+**Thursday, June 25 | 8:00 AM - 5:00 PM ET | NYC (In-Person)**
 
 ---
 

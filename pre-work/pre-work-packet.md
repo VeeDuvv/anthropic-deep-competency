@@ -1,21 +1,21 @@
 # Pre-Work Packet: Anthropic Deep Competency Program
 
-**US Cohort 1 | New York City | June 15-26, 2026**
+**US Cohort 1 | New York City | June 22 – July 3, 2026**
 
 ---
 
 Welcome to the Anthropic Deep Competency Program. You've been selected as one of 12 practitioners for our inaugural immersive training cohort. Over two weeks, you'll gain hands-on mastery of Claude and build a real AI product as a team -- developing the deep competency bench that positions our firm for an Anthropic partnership.
 
-This pre-work packet ensures you walk into Day 1 (Monday, June 15) ready to code. No setup friction, no waiting for installs -- just hands on keyboards from the start.
+This pre-work packet ensures you walk into Day 1 (Monday, June 22) ready to code. No setup friction, no waiting for installs -- just hands on keyboards from the start.
 
 ---
 
 ## Timeline
 
 | Tier | Deadline | Effort | Requirement |
-| Tier 1: Required | **June 13 (Friday)** | ~4 hours | Must complete to attend |
-| Tier 2: Recommended | **June 14 (Saturday)** | ~4 hours | Strongly encouraged |
-| Tier 3: Optional | Before June 15 | ~4 hours | For those who want a head start |
+| Tier 1: Required | **June 20 (Friday)** | ~4 hours | Must complete to attend |
+| Tier 2: Recommended | **June 21 (Saturday)** | ~4 hours | Strongly encouraged |
+| Tier 3: Optional | Before June 22 | ~4 hours | For those who want a head start |
 
 **Total estimated effort: 8-12 hours spread over 4-5 days.**
 
@@ -367,4 +367,4 @@ Don't struggle alone -- reach out early so we can resolve issues before Day 1.
 
 ---
 
-*See you in NYC on June 15. Come ready to build.*
+*See you in NYC on June 22. Come ready to build.*

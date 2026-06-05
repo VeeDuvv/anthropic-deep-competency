@@ -1,8 +1,8 @@
 # Logistics Email — Week 1 (NYC In-Person)
 
-**Subject:** Anthropic Deep Competency Program — Week 1 Logistics (NYC, Jun 15-19)
+**Subject:** Anthropic Deep Competency Program — Week 1 Logistics (NYC, Jun 22-26)
 
-**Send date:** Friday, June 13
+**Send date:** Friday, June 20
 
 **To:** All 12 confirmed participants
 
@@ -31,11 +31,11 @@ A facilitator will meet the group in the lobby at **10:30 AM on Monday** (Day 1)
 
 | Day | Date | Start | End | Notes |
 |-----|------|-------|-----|-------|
-| Day 1 (Mon) | Jun 15 | 11:00 AM | 4:00 PM | Late start. Team dinner at 6:30 PM. |
-| Day 2 (Tue) | Jun 16 | 8:00 AM | 5:00 PM | Full day. |
-| Day 3 (Wed) | Jun 17 | 8:00 AM | 5:00 PM | Full day. |
-| Day 4 (Thu) | Jun 18 | 8:00 AM | 5:00 PM | Team dinner at 6:30 PM. |
-| Day 5 (Fri) | Jun 19 | 9:00 AM | 3:00 PM | Early wrap. Knowledge check + build kickoff. |
+| Day 1 (Mon) | Jun 22 | 11:00 AM | 4:00 PM | Late start. Team dinner at 6:30 PM. |
+| Day 2 (Tue) | Jun 23 | 8:00 AM | 5:00 PM | Full day. |
+| Day 3 (Wed) | Jun 24 | 8:00 AM | 5:00 PM | Full day. |
+| Day 4 (Thu) | Jun 25 | 8:00 AM | 5:00 PM | Team dinner at 6:30 PM. |
+| Day 5 (Fri) | Jun 26 | 9:00 AM | 3:00 PM | Early wrap. Knowledge check + build kickoff. |
 
 All times are **Eastern Time**.
 
@@ -49,7 +49,7 @@ Breakfast, lunch, and coffee/snacks are provided every day in the training room.
 - **Thursday dinner:** Team dinner at [Restaurant TBD], 6:30 PM.
 - **Tue/Wed/Fri evenings:** On your own. We'll share a list of recommended spots nearby.
 
-**Dietary restrictions:** If you haven't already shared yours, please reply to this email with any dietary needs (allergies, vegetarian/vegan, kosher, halal, etc.) by **end of day Saturday, June 14**.
+**Dietary restrictions:** If you haven't already shared yours, please reply to this email with any dietary needs (allergies, vegetarian/vegan, kosher, halal, etc.) by **end of day Saturday, June 21**.
 
 ---
 
@@ -77,8 +77,8 @@ Breakfast, lunch, and coffee/snacks are provided every day in the training room.
 If you're traveling to NYC, your flights and hotel have been booked. Check your email for confirmations from [Travel System / Admin Name TBD]. If you haven't received your confirmation, contact [Admin Name/Email TBD] immediately.
 
 **Hotel:** [Hotel Name TBD], [Address TBD]
-**Check-in:** Sunday, June 14 (afternoon)
-**Check-out:** Friday, June 19 or Saturday, June 20
+**Check-in:** Sunday, June 21 (afternoon)
+**Check-out:** Friday, June 26 or Saturday, June 27
 
 The hotel is [X minutes] from the venue by [subway/walk]. Directions will be in your confirmation email.
 
@@ -113,7 +113,7 @@ If anything is red, **fix it today or reach out on Slack.** We will not have tim
 
 ### Week 2 Preview
 
-Week 2 (Jun 22-26) is fully virtual. You'll receive a separate logistics email with video call links and the build track schedule on Thursday, June 19 (Day 4).
+Week 2 (Jun 29 – Jul 3) is fully virtual. You'll receive a separate logistics email with video call links and the AI-Native Build Track schedule on Thursday, June 25 (Day 4).
 
 ---
 

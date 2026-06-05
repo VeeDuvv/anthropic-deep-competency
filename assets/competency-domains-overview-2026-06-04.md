@@ -105,7 +105,7 @@ Week 1 (In-Person NYC)
   Day 5  ██████            Knowledge Check (all 5 domains)
 
 Week 2 (Virtual)
-  Days 6-10               Build Track — apply all domains in a team project
+  Days 6-10               AI-Native Build Track — apply all domains in a team project
 ```
 
 ---

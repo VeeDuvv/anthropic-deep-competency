@@ -1,6 +1,6 @@
 # Day 7: Build Sprint 2
 
-**Tuesday, June 23 | 8:00 AM - 5:00 PM ET | Virtual**
+**Tuesday, June 30 | 8:00 AM - 5:00 PM ET | Virtual**
 
 ---
 

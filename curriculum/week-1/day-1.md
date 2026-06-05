@@ -1,6 +1,6 @@
 # Day 1: Foundations + Claude Code
 
-**Monday, June 15 | 11:00 AM - 4:00 PM ET | NYC (In-Person)**
+**Monday, June 22 | 11:00 AM - 4:00 PM ET | NYC (In-Person)**
 
 ---
 

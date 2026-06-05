@@ -1,6 +1,6 @@
 # Day 5: Competency Assessment + Build Project Kickoff
 
-**Friday, June 19 | 9:00 AM - 3:00 PM ET | NYC (In-Person)**
+**Friday, June 26 | 9:00 AM - 3:00 PM ET | NYC (In-Person)**
 
 ---
 

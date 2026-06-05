@@ -1,6 +1,6 @@
 # Day 10: Team Demos + Program Close
 
-**Friday, June 26 | 9:00 AM - 3:00 PM ET | Virtual**
+**Friday, July 3 | 9:00 AM - 3:00 PM ET | Virtual**
 
 ---
 

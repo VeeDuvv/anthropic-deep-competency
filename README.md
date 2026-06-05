@@ -1,6 +1,6 @@
 # Anthropic Deep Competency Program
 
-**US Cohort 1 | New York City | June 15-26, 2026**
+**US Cohort 1 | New York City | June 22 – July 3, 2026**
 
 A two-week immersive training program building deep Claude competency across 6 practitioner personas.
 
@@ -12,8 +12,8 @@ log.md               # Activity log (managed by Forge)
 assets/              # Generated assets (exec memo, emails, packets — md + docx)
 curriculum/
   competency-domains-overview.md
-  week-1/            # In-person NYC (Jun 15-19)
-  week-2/            # Virtual (Jun 22-26)
+  week-1/            # In-person NYC (Jun 22-26)
+  week-2/            # Virtual (Jun 29 – Jul 3)
 labs/                # Hands-on coding exercises (14 labs)
 pre-work/            # Pre-work packet + setup verification
 build-assets/        # Synthetic data for Week 2 build projects
