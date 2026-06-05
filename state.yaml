@@ -1,0 +1,369 @@
+# Forge Program State
+# This file is the living state of an enablement program instance.
+# It is read and updated by Forge on every invocation.
+
+program:
+  vendor: "Anthropic"
+  year: 2026
+  owner: "Vamsi Duvvuri"
+  created: "2026-06-04"
+  last_updated: "2026-06-04T2"
+  status: "active"
+  description: "Anthropic Technology Enablement Program 2026"
+  repo: "https://github.com/VeeDuvv/anthropic-deep-competency"
+
+budget:
+  currency: "USD"
+  allocated: 0  # pending exec memo approval
+  requested: 290525
+  spent: 0
+  remaining: 0
+  peoples_time: 252800
+  real_expenses: 37725
+  line_items:
+    # --- Facilitators ---
+    - name: "PPMD (oversight, 8 hrs/wk x 2 wks x $800/hr)"
+      amount: 12800
+      category: "opportunity_cost"
+      role: "facilitator"
+      status: "requested"
+    - name: "Sr. Manager (FT, 2 wks x 40 hrs x $400/hr)"
+      amount: 32000
+      category: "opportunity_cost"
+      role: "facilitator"
+      status: "requested"
+    - name: "Manager (FT, 2 wks x 40 hrs x $200/hr)"
+      amount: 16000
+      category: "opportunity_cost"
+      role: "facilitator"
+      status: "requested"
+    - name: "Facilitator — flights (3 x $500 domestic roundtrip)"
+      amount: 1500
+      category: "travel"
+      role: "facilitator"
+      status: "requested"
+    - name: "Facilitator — hotel (3 x 5 nights x $300)"
+      amount: 4500
+      category: "travel"
+      role: "facilitator"
+      status: "requested"
+    - name: "Facilitator — API credits"
+      amount: 2000
+      category: "technology"
+      role: "facilitator"
+      status: "requested"
+    - name: "Facilitator — meals (3 x 5 days)"
+      amount: 1425
+      category: "logistics"
+      role: "facilitator"
+      status: "requested"
+    - name: "Facilitator — swag"
+      amount: 500
+      category: "logistics"
+      role: "facilitator"
+      status: "requested"
+    # --- Students ---
+    - name: "Students — opportunity cost (12 x 2 wks x 40 hrs x $200/hr)"
+      amount: 192000
+      category: "opportunity_cost"
+      role: "student"
+      status: "requested"
+    - name: "Students — flights (6 travelers x $500 domestic roundtrip)"
+      amount: 3000
+      category: "travel"
+      role: "student"
+      status: "requested"
+    - name: "Students — hotel (6 travelers x 5 nights x $300)"
+      amount: 9000
+      category: "travel"
+      role: "student"
+      status: "requested"
+    - name: "Students — API credits (12 x labs + build projects)"
+      amount: 14000
+      category: "technology"
+      role: "student"
+      status: "requested"
+    - name: "Students — meals (12 x 5 days in-person)"
+      amount: 5700
+      category: "logistics"
+      role: "student"
+      status: "requested"
+    - name: "Students — exam fees (12 x $100)"
+      amount: 1200
+      category: "certification"
+      role: "student"
+      status: "deferred"
+      notes: "Deferred until Anthropic partnership established — certs count toward tier levels"
+    - name: "Students — swag"
+      amount: 2000
+      category: "logistics"
+      role: "student"
+      status: "requested"
+
+cohorts:
+  us:
+    geo: "US"
+    city: "New York City"
+    size: 12
+    duration_weeks: 2
+    week_1: "in-person (NYC)"
+    week_2: "virtual"
+    travelers: 6  # half travel to NYC for Week 1
+    format: "immersive (6 hrs/day structured + project time)"
+    purpose: "Pilot/seed — build the machine, test curriculum, generate playbooks"
+    facilitators:
+      - role: "PPMD"
+        commitment: "8 hrs/week (oversight)"
+        rate: 800
+      - role: "Sr. Manager"
+        commitment: "full-time"
+        rate: 400
+      - role: "Manager"
+        commitment: "full-time"
+        rate: 200
+    personas:
+      - "Data Engineer"
+      - "AI Engineer"
+      - "Architect"
+      - "Software Engineer"
+      - "Business Analyst / Consultant"
+      - "Product Manager"
+    skill_level: "intermediate to advanced"
+    trainers_produced: 3
+    subtotal: 290525
+  india:
+    status: "deferred"
+    estimated_cost: 141000
+    notes: "To be planned after US cohort completes. ~12 students, 2 weeks, Bangalore."
+
+training_design:
+  tracks:
+    - name: "Certification Track"
+      description: "Systematic coverage of Claude Certified Architect exam domains"
+      requirement: "Internal competency assessment. CCA exam deferred until Anthropic partnership."
+    - name: "Build Track"
+      description: "AI product process — specs, harnesses, collaboration — to build a real product as a team"
+      requirement: "Full project from strategy to deployment and communications"
+  objectives:
+    - "Hands-on proficiency with Claude Code as a daily tool"
+    - "Plan and execute a full complex build using Claude (strategy → deployment → comms)"
+    - "Learn and test each major Claude feature, applied in the build"
+    - "Build bench-level competency across all 5 Claude domains (certification deferred to partnership)"
+  trainer_pipeline:
+    - "US cohort → 2-3 become future co-facilitators for India and other geos"
+    - "1-2 per cohort selected as future trainers (internal or external)"
+  key_principle: "Train the trainer — first cohort builds the enablement machine itself"
+
+workstreams:
+  training:
+    status: "planning"
+    sessions_planned: 1
+    sessions_delivered: 0
+    notes: "Immersive 2-week program. Week 1 in-person NYC, Week 2 virtual. 12 students, 3 facilitators. India deferred."
+  communications:
+    status: "not_started"
+    updates_sent: 0
+    notes: ""
+  evangelism:
+    status: "not_started"
+    newsletters_published: 0
+    subscriber_count: 0
+    notes: ""
+  hackathons:
+    status: "not_started"
+    events_planned: 0
+    events_completed: 0
+    notes: ""
+  solutions:
+    status: "not_started"
+    solutions_designed: 0
+    solutions_deployed: 0
+    notes: ""
+  executive:
+    status: "planning"
+    meetings_held: 0
+    notes: "Exec memo delivered. $290,525 requested ($37,725 real expenses + $252,800 people's time)"
+  competitive_intelligence:
+    status: "not_started"
+    battle_cards_maintained: 0
+    last_refresh: ""
+    notes: ""
+
+milestones:
+  # --- This week: Approvals + Candidates ---
+  - name: "Exec memo circulated"
+    date: "2026-06-04"
+    status: "in_progress"
+    pillar: "alignment"
+    notes: "Circulate to Head of AI&Data, Head of Tech Consulting, CTO"
+  - name: "Verbal approval + charge codes"
+    date: "2026-06-05"
+    status: "planned"
+    pillar: "alignment"
+    notes: "Obtain verbal go-ahead and charge code(s)"
+  - name: "Draft candidate list"
+    date: "2026-06-05"
+    status: "planned"
+    pillar: "execution"
+    notes: "12 candidates + 2-3 alternates, 2 per persona"
+  - name: "Candidate intro email sent"
+    date: "2026-06-06"
+    status: "planned"
+    pillar: "execution"
+    notes: "Confirm interest and availability by Mon Jun 9"
+  - name: "Book NYC conference room (Jun 15-19)"
+    date: "2026-06-06"
+    status: "planned"
+    pillar: "execution"
+    notes: "Week 1 in-person venue"
+  # --- Prep week ---
+  - name: "Candidate confirmations due — finalize roster"
+    date: "2026-06-09"
+    status: "planned"
+    pillar: "execution"
+    notes: "Lock 12 participants from confirmed candidates"
+  - name: "Provision API keys + sandbox accounts"
+    date: "2026-06-09"
+    status: "planned"
+    pillar: "execution"
+    notes: "15 accounts (12 students + 3 facilitators)"
+  - name: "Send pre-work packet"
+    date: "2026-06-10"
+    status: "asset_ready"
+    pillar: "execution"
+    notes: "Pre-work packet + verify_setup.py created. Ready to send Jun 10."
+  - name: "Book travel (6 students + 3 facilitators)"
+    date: "2026-06-10"
+    status: "planned"
+    pillar: "execution"
+    notes: "Flights + hotels for NYC, Mon-Fri Jun 15-19"
+  - name: "Order catering + team dinners"
+    date: "2026-06-11"
+    status: "planned"
+    pillar: "execution"
+    notes: "B/L/D Mon-Thu, B/L Fri. Team dinners Mon + Thu"
+  - name: "Finalize Week 1 + Week 2 curriculum"
+    date: "2026-06-12"
+    status: "planned"
+    pillar: "execution"
+    notes: "Slide decks, lab exercises, practice exams, sprint templates, demo format"
+  - name: "Order swag (expedited)"
+    date: "2026-06-12"
+    status: "planned"
+    pillar: "execution"
+    notes: "Branded materials and completion gifts"
+  - name: "Facilitator dry run"
+    date: "2026-06-13"
+    status: "planned"
+    pillar: "execution"
+    notes: "Walk through Day 1, test all labs, verify API access"
+  - name: "Send logistics email to participants"
+    date: "2026-06-13"
+    status: "asset_ready"
+    pillar: "execution"
+    notes: "Logistics email drafted. Fill TBD placeholders (venue, restaurants, hotel, charge code) and send."
+  # --- Week 1: In-person NYC ---
+  - name: "US cohort — Week 1 start (NYC, in-person)"
+    date: "2026-06-15"
+    status: "planned"
+    pillar: "execution"
+    notes: "Mon 11a-4p: Welcome + foundations. Team dinner"
+  - name: "US cohort — Week 1 complete"
+    date: "2026-06-19"
+    status: "planned"
+    pillar: "execution"
+    notes: "Fri wrap by 3p. All 5 cert domains covered, 2 mock exams taken, build project kicked off"
+  # --- Week 2: Virtual ---
+  - name: "US cohort — Week 2 start (virtual)"
+    date: "2026-06-22"
+    status: "planned"
+    pillar: "execution"
+    notes: "Mon 11a-4p: AI Product Process + Build Sprint 1"
+  - name: "US cohort — Completion + demos"
+    date: "2026-06-26"
+    status: "planned"
+    pillar: "execution"
+    notes: "Fri: Team demos to leadership. Trainer selection. Program close"
+  # --- Post-cohort ---
+  - name: "Competency assessment + knowledge check distributed"
+    date: "2026-06-27"
+    status: "planned"
+    pillar: "execution"
+    notes: "Internal skills assessment across 5 Claude domains. Formal CCA certification deferred until Anthropic partnership established."
+  - name: "Cohort results + retro + India go/no-go"
+    date: "2026-07-14"
+    status: "planned"
+    pillar: "alignment"
+    notes: "Compile competency scores, review cohort, decide India cohort timing. Trained bench supports future Anthropic partnership + CCA certification."
+
+metrics:
+  total_trained: 0
+  avg_satisfaction: 0.0
+  completion_rate: 0.0
+  hackathon_participants: 0
+  hackathon_projects: 0
+  active_projects: 0
+  certifications_achieved: 0
+  newsletter_subscribers: 0
+
+assets_index:
+  - id: "exec-memo-2026-06-04"
+    type: "exec-memo"
+    title: "Investment Case: Anthropic Deep Competency Program"
+    created: "2026-06-04"
+    status: "draft"
+    file: "assets/exec-memo-2026-06-04.md"
+    formats_exported: ["docx"]
+  - id: "pre-work-packet-2026-06-04"
+    type: "pre-work-packet"
+    title: "Pre-Work Packet: Anthropic Deep Competency Program"
+    created: "2026-06-04"
+    status: "draft"
+    file: "assets/pre-work-packet-2026-06-04.md"
+    formats_exported: ["docx"]
+  - id: "verify-setup-script-2026-06-04"
+    type: "script"
+    title: "Environment Verification Script (verify_setup.py)"
+    created: "2026-06-04"
+    status: "ready"
+    file: "pre-work/verify_setup.py"
+    formats_exported: []
+  - id: "training-curriculum-2026-06-04-us"
+    type: "training-curriculum"
+    title: "Anthropic Immersive Training — US Cohort (NYC)"
+    created: "2026-06-04"
+    status: "draft"
+    file: "curriculum/"
+    formats_exported: []
+    notes: "10-day curriculum + 14 complete labs with runnable code. Competency domains overview created."
+  - id: "competency-domains-overview-2026-06-04"
+    type: "reference"
+    title: "Claude Competency Domains Overview (1-pager)"
+    created: "2026-06-04"
+    status: "draft"
+    file: "assets/competency-domains-overview-2026-06-04.md"
+    formats_exported: ["docx"]
+  - id: "knowledge-check-2026-06-04"
+    type: "assessment"
+    title: "Competency Knowledge Check (40 questions, 5 domains)"
+    created: "2026-06-04"
+    status: "draft"
+    file: "curriculum/week-1/knowledge-check.md"
+    formats_exported: []
+    notes: "Answer key at knowledge-check-answer-key.md (facilitators only)"
+  - id: "build-project-briefs-2026-06-04"
+    type: "reference"
+    title: "Build Track Project Briefs (3 projects)"
+    created: "2026-06-04"
+    status: "draft"
+    file: "curriculum/week-2/build-project-briefs.md"
+    formats_exported: []
+    notes: "Proposal Intelligence Engine, Codebase Onboarding Agent, Client Meeting Intelligence. Synthetic assets complete — see build-assets/."
+  - id: "logistics-email-2026-06-04"
+    type: "comms"
+    title: "Week 1 Logistics Email (NYC, Jun 15-19)"
+    created: "2026-06-04"
+    status: "draft"
+    file: "assets/logistics-email-2026-06-04.md"
+    formats_exported: ["docx"]
+    notes: "Send Jun 13. Has TBD placeholders for venue, restaurants, hotel, travel admin, charge code."

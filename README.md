@@ -7,21 +7,19 @@ A two-week immersive training program building deep Claude competency across 6 p
 ## Structure
 
 ```
+state.yaml           # Program state (managed by Forge)
+log.md               # Activity log (managed by Forge)
+assets/              # Generated assets (exec memo, emails, packets — md + docx)
 curriculum/
-  week-1/          # In-person NYC (Jun 15-19)
-    day-1.md       # Foundations + Claude Code
-    day-2.md       # API Deep Dive + Prompt Engineering
-    day-3.md       # Tool Use + Agents
-    day-4.md       # MCP + Extended Thinking
-    day-5.md       # Assessment + Build Kickoff
-  week-2/          # Virtual (Jun 22-26)
-    day-6.md       # AI Product Process
-    day-7.md       # Build Sprint 1
-    day-8.md       # Build Sprint 2
-    day-9.md       # Build Sprint 3
-    day-10.md      # Team Demos + Close
-labs/              # Hands-on coding exercises
-pre-work/          # Pre-work packet + setup verification
+  competency-domains-overview.md
+  week-1/            # In-person NYC (Jun 15-19)
+  week-2/            # Virtual (Jun 22-26)
+labs/                # Hands-on coding exercises (14 labs)
+pre-work/            # Pre-work packet + setup verification
+build-assets/        # Synthetic data for Week 2 build projects
+  project-a-proposal-engine/
+  project-b-onboarding-agent/
+  project-c-meeting-intel/
 ```
 
 ## Program Details
@@ -35,3 +33,7 @@ pre-work/          # Pre-work packet + setup verification
 ## Pre-Work
 
 Participants must complete the [pre-work packet](pre-work/pre-work-packet.md) by June 13. Run [verify_setup.py](pre-work/verify_setup.py) to confirm your environment is ready.
+
+## Managed by Forge
+
+This repo is an instance of the [Forge](https://github.com/VeeDuvv/forge) technology enablement engine. Program state, assets, and logs are managed via `/forge anthropic <action>`.
