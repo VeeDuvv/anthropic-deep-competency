@@ -9,7 +9,7 @@ A two-week immersive training program building deep Claude competency across 6 p
 ```
 state.yaml           # Program state (managed by Forge)
 log.md               # Activity log (managed by Forge)
-assets/              # Generated assets (exec memo, emails, packets — md + docx)
+program-assets/      # Generated assets (exec memo, emails, packets — md + docx)
 curriculum/
   competency-domains-overview.md
   week-1/            # In-person NYC (Jun 22-26)

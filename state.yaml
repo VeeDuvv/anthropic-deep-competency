@@ -318,14 +318,14 @@ assets_index:
     title: "Investment Case: Anthropic Deep Competency Program"
     created: "2026-06-04"
     status: "draft"
-    file: "assets/exec-memo-2026-06-04.md"
+    file: "program-assets/exec-memo-2026-06-04.md"
     formats_exported: ["docx"]
   - id: "pre-work-packet-2026-06-04"
     type: "pre-work-packet"
     title: "Pre-Work Packet: Anthropic Deep Competency Program"
     created: "2026-06-04"
     status: "draft"
-    file: "assets/pre-work-packet-2026-06-04.md"
+    file: "program-assets/pre-work-packet-2026-06-04.md"
     formats_exported: ["docx"]
   - id: "verify-setup-script-2026-06-04"
     type: "script"
@@ -347,7 +347,7 @@ assets_index:
     title: "Claude Competency Domains Overview (1-pager)"
     created: "2026-06-04"
     status: "draft"
-    file: "assets/competency-domains-overview-2026-06-04.md"
+    file: "program-assets/competency-domains-overview-2026-06-04.md"
     formats_exported: ["docx"]
   - id: "knowledge-check-2026-06-04"
     type: "assessment"
@@ -370,6 +370,6 @@ assets_index:
     title: "Week 1 Logistics Email (NYC, Jun 15-19)"
     created: "2026-06-04"
     status: "draft"
-    file: "assets/logistics-email-2026-06-04.md"
+    file: "program-assets/logistics-email-2026-06-04.md"
     formats_exported: ["docx"]
     notes: "Send Jun 13. Has TBD placeholders for venue, restaurants, hotel, travel admin, charge code."
